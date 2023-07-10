@@ -1,40 +1,46 @@
--- ds.page: Welcome to doc-site
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: #db8d97
+align-content: center
+spacing.fixed.px: 20
+
+-- card: Yae Miko
+
+*" I am the Guuji of the Grand Narukami Shrine. The purpose of my visit is to monitor your every move, for such is the order of the shrine... Oh, come on, don't be so nervous. It's only officialese, for goodness' sake. I couldn't just go gallivanting around for no reason at all, could I? Now, come on, do something amusing for me."*
+
+-- end: ftd.column
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
+-- component card:
+caption title: Default Name
+body description: Default Body
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+-- ftd.row:
+width.fixed.px: 650
+height.fixed.px: 370
+color: #ddd
+background.solid: #b25b6e95
+border-radius.px: 20
+padding.px: 20
+spacing.fixed.px: 50
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+-- ftd.image:
+src: https://c.wallhere.com/photos/42/d2/Genshin_Impact_artwork_Yae_Miko_Genshin_Impact_anime_anime_girls_pink_hair_purple_eyes_fox_girl-2250026.jpg!s1
+height: fill-container
+border-radius.px: 20
 
--- ds.h3: 🚀 Fast Track 
+-- ftd.column:
 
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
+-- ftd.text: $card.title
+role: $inherited.types.heading-medium
 
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.text: $card.description
+role: $inherited.types.copy-regular
 
 
--- ds.h3: 🎯 Used by?
+-- end: ftd.column
 
-Our all documentation sites uses this `doc-site` theme.
+-- end: ftd.row
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
-
--- ds.h2: Learn fastn and become a pro?
-
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
-
--- end: ds.page
+-- end: card
